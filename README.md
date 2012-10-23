@@ -13,6 +13,8 @@ This little project here aims to give a hint on what to do when resources are sc
 
 Though it has to be said that this comes to another prize.
 
+Only one component at a time can be updated.
+
 Ajax calls are non-asynchronous.
 
 Library is not tested against big variety of web browsers.

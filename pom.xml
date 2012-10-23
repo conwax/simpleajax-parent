@@ -19,6 +19,7 @@
 
 	<properties>
 		<wicket.version>6.2.0-SNAPSHOT</wicket.version>
+		<wicketstuff-gae.version>6.0-SNAPSHOT</wicketstuff-gae.version>
 		<jetty.version>7.6.3.v20120416</jetty.version>
 	</properties>
 

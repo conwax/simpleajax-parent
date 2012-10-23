@@ -42,6 +42,7 @@ public abstract class SimpleAjaxLink<T> extends AbstractLink
 	protected void onInitialize()
 	{
 		super.onInitialize();
+		setOutputMarkupId(true);
 		add(newSimpleAjaxEventBehavior("click"));
 	}
 
@@ -135,6 +136,4 @@ public abstract class SimpleAjaxLink<T> extends AbstractLink
 	{
 		setDefaultModelObject(object);
 	}
-
-
 }

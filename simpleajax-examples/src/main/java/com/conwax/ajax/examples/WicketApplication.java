@@ -24,12 +24,14 @@ import org.apache.wicket.protocol.http.WebApplication;
  * 
  * @see com.conwax.ajax.examples.Start#main(String[])
  */
-public class WicketApplication extends WebApplication {
+public class WicketApplication extends WebApplication
+{
 	/**
 	 * @see org.apache.wicket.Application#getHomePage()
 	 */
 	@Override
-	public Class<HomePage> getHomePage() {
+	public Class<HomePage> getHomePage()
+	{
 		return HomePage.class;
 	}
 
@@ -37,9 +39,10 @@ public class WicketApplication extends WebApplication {
 	 * @see org.apache.wicket.Application#init()
 	 */
 	@Override
-	public void init() {
+	public void init()
+	{
 		super.init();
-		//to be fair, turn of the wicket ajax debug overhead
+		// to be fair, turn of the wicket ajax debug overhead
 		getDebugSettings().setAjaxDebugModeEnabled(false);
 	}
 }
