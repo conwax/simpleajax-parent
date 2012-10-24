@@ -22,3 +22,7 @@ Library is not tested against big variety of web browsers.
 Still curious?
 
 Go ahead and take a look for yourself.
+
+[Source Code](https://github.com/conwax/simpleajax-parent)
+
+[Instance of the example app on GAE](http://simpleajax-example.appspot.com/)
