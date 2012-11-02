@@ -1,7 +1,7 @@
 Simple Ajax Components for Wicket
 =================================
 
-Wicked has a great support for programming rich Ajax web applications.
+Wicket has a great support for programming rich Ajax web applications.
 It can handle a variety of Ajax callbacks.
 Those  calls are non-blocking and are handled asynchronously.
 Different elements DOM-tree can be replaced even JavaScript can be injected that way.
